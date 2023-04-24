@@ -3,7 +3,7 @@
   padding: 0;
 }
 footer{
-  position:absolute;
+  position:relative;
   bottom: 0;
   left:0;
   right: 0;
@@ -59,4 +59,73 @@ a{
   text-decoration: none;
   color: white;
   font-weight: bolder;
+}
+.onama{
+  max-width: 500px;
+  margin: 50px auto;
+  font-size: 14px;
+  color:black;
+}
+.quiz{
+  text-align: center;
+  position: relative;
+  background-color: rosybrown;
+  width: 50%;
+  margin: 2% auto;
+  padding: 5%;
+  color: white;
+  
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  color: white;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+  align-items: left;
+  gap: 1rem;
+}
+
+.card h2 {
+  text-align: left;
+  color: white;
+}
+
+.correct-ans {
+  font-size: 1.3rem;
+  color: white;
+}
+
+button {
+  width: 15rem;
+  border: 2px solid grey;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  text-align: left;
+}
+
+.next {
+  width: 50%;
+  margin-top: 1rem;
+  background: rgb(172, 172, 172);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.get-ans {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.disable {
+  pointer-events: none;
 }

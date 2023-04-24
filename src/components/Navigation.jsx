@@ -5,18 +5,18 @@ const Navigation = () => {
   return (
     <div className='sum'>
       <div className='logo' >
-        Hello
+      Edúcate
       </div>
       <nav className='item'>
         <ul className='ul'>
         <li>
-          <Link to="/">POCETNA</Link>
+          <a href='/'>POCETNA</a>
         </li>
         <li>
-          <Link to="/about-us" >ABOUT US</Link>
+          <Link to="/about-us" >O NAMA</Link>
         </li>
         <li>
-          <Link to="/contact">CONTACT US</Link>
+          <Link to="/contact">KONTAKT</Link>
         </li>
         </ul>
      
