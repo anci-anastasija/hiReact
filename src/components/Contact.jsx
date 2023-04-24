@@ -1,9 +1,13 @@
 import React from 'react'
-
+import Popup from './Popup'
 function Contact() {
   return (
     <div>
-      <h4>CONTACT US</h4>
+      
+        
+        <Popup/>
+          
+    
     </div>
   )
 }
