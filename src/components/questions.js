@@ -1,23 +1,49 @@
 const Questions = [
     {
-        id: 1,
-        question: "Kako se na spanskom kaze jabuka?"
+        
+        question: "Kako se na spanskom kaze jabuka?",
+        answers: [
+            { text: "la fresa" }, 
+            { text: "el aguacate" }, 
+            { text: "la manzana", isCorrect: true }],
+        
     },
     {
-        id: 2,
-        question: "Dopuni recenicu: Ella compró ___ camisa"
+        
+        question: "Dopuni recenicu: Ella compró ___ camisa",
+        answers: [
+            { text: "un" },
+            { text: "uno" },
+            { text: "una", isCorrect: true },
+          ],
     },
     {
-        id: 3,
-        question: "Prevedi recenicu: Quieres bailar conmigo?"
+        
+        question: "Prevedi recenicu: Quieres bailar conmigo?",
+        answers: [
+            { text: "Hoćeš da šetamo?" },
+            { text: "Hoćeš da igramo?", isCorrect: true },
+            { text: "Hoćeš da idemo?" }
+          ],
     },
     {
-        id: 4,
-        question: "Verde je koja boja?"
+        
+        question: "Verde je koja boja?",
+        answers: [
+            { text: "žuta" },
+            { text: "zelena", isCorrect: true },
+            { text: "crvena" }
+          ],
     },
     {
-        id: 5,
-        question: "Kako se kaze 5 na spanskom"
+        
+        question: "Kako se kaze 5 na spanskom",
+        answers: [
+            { text: "siete" },
+            { text: "cinco", isCorrect: true },
+            { text: "dos" }
+          ],
     },
 ];
 export default Questions;
+
